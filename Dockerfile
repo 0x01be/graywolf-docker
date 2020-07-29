@@ -15,6 +15,7 @@ RUN mkdir /graywolf/build/
 WORKDIR /graywolf/build
 
 RUN cmake ..
-RUN make
-RUN make install
+# FIXME
+#RUN make
+#RUN make install
 
